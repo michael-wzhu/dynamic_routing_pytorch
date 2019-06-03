@@ -1,4 +1,1 @@
-# from my_library.models.academic_paper_classifier import AcademicPaperClassifier
-from src.models.sst_5_simple_classifier import SST5SimpleClassifier
 from src.models.sst_5_encoder_aggregator_classifier import SST5EncoderAggregatorClassifier
-from src.models.star_transformer_classifier import StarTransformerClassifier

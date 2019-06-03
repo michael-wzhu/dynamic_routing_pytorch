@@ -19,11 +19,11 @@
       }
     },
     "sentence_encoder": {
-      "type": "lstm",
+      "type": "rnn_encoder",
+      "rnn_name": "lstm",
       "bidirectional": true,
-      "input_size": 300,
-      "hidden_size": 256,
-      "num_layers": 1,
+      "input_dim": 300,
+      "output_dim": 512,
       "dropout": 0.3
     },
     "aggregator": {
